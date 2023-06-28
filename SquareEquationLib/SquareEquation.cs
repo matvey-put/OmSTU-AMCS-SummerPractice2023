@@ -6,6 +6,7 @@ public class SquareEquation
     {     
         double eps =Math.Pow(10, -9);
         double D = Math.Pow(b, 2) - (4*a*c);
+        
         if ((Double.IsNaN(a)) || (Double.IsNaN(b)) ||(Double.IsNaN(c)))
         {
             throw new ArgumentException();
@@ -35,7 +36,7 @@ public class SquareEquation
             double[] array_x = {x1};
             return array_x;
         }
-        
+
         if (D<-eps)
         {
             double[] array_x = new double[0];
