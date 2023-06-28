@@ -35,11 +35,10 @@ public class SquareEquation
             double[] array_x = {x1};
             return array_x;
         }
-
         if (D<-eps)
         {
-            double[] array_x = new double[0];
-            return array_x;
+            double[] array_xx = new double[0];
+            return array_xx;
         }
         throw new NotImplementedException();
     }
