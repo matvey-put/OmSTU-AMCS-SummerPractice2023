@@ -36,11 +36,7 @@ public class SquareEquation
             return array_x;
         }
         
-        if (D<-eps)
-        {
-            double[] array_x = new double[0];
-            return array_x;
-        }
-        throw new NotImplementedException();
+        return new double[0];
+
     }
 }
