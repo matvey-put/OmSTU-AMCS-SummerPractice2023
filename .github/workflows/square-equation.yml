@@ -24,3 +24,9 @@ jobs:
 
       - name: Test
         run: ./SquareEquationTest ./SquareEquationLib/bin/Debug/net7.0/SquareEquationLib.dll
+
+      - name: XunitTest
+          run: cd XUnit.Coverlet.Collector && dotnet test --collect:"XPlat Code Coverage"
+      
+      - name: Coverage
+        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
