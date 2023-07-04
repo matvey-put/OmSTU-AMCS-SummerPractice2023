@@ -37,6 +37,5 @@ public class SquareEquation
         }
         
         return new double[0];
-
     }
 }
