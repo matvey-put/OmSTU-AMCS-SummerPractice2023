@@ -68,6 +68,5 @@ namespace Prime.UnitTests.Services
         {
             Assert.Throws<ArgumentException>(()=>SquareEquation.Solve(a, b, c));
         }
-        
     }
 }
