@@ -43,5 +43,6 @@ public class SquareEquation
             return array_x;
         }
         throw new NotImplementedException();
+        
     }
 }
